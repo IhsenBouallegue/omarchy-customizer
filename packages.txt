@@ -1,0 +1,4 @@
+zen-browser-bin
+ghostty
+bambustudio-bin
+discord

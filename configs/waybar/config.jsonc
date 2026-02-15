@@ -1,0 +1,19 @@
+{
+    "layer": "top",
+    "position": "top",
+    "exclusive": false,  // Don't push windows down (Overlay Mode)
+    "passthrough": false,
+    "ipc": true,         // Required for script
+    "start-hidden": false,
+
+    // Modules
+    "modules-left": ["hyprland/workspaces"],
+    "modules-center": ["clock"],
+    "modules-right": ["pulseaudio", "network", "battery", "tray", "custom/browser"],
+
+    "custom/browser": {
+        "format": "\uF269",
+        "on-click": "zen-browser",
+        "tooltip": "Zen Browser"
+    }
+}
