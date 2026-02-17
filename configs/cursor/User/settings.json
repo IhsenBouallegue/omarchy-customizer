@@ -1,0 +1,209 @@
+{
+	"telemetry.enableTelemetry": false,
+	"workbench.colorTheme": "Tokyo Night",
+	"workbench.iconTheme": "material-icon-theme",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"gitlens.defaultDateFormat": null,
+	"gitlens.views.branches.branches.layout": "list",
+	"git.enableSmartCommit": true,
+	"gitlens.advanced.messages": {
+		"suppressCreatePullRequestPrompt": true
+	},
+	"remote.SSH.remotePlatform": {
+		"clientssh1.rbg.informatik.tu-darmstadt.de": "linux",
+		"clientssh-arm.rbg.informatik.tu-darmstadt.de": "linux",
+		"lcluster1.hrz.tu-darmstadt.de": "linux",
+		"raspberrypi.local": "linux",
+		"lora1.local": "linux",
+		"lora2.local": "linux"
+	},
+	"editor.largeFileOptimizations": false,
+	"git.confirmSync": false,
+	"githubIssues.queries": [
+		{
+			"label": "My Issues",
+			"query": "default"
+		},
+		{
+			"label": "Created Issues",
+			"query": "author:${user} state:open repo:${owner}/${repository} sort:created-desc"
+		}
+	],
+	"files.exclude": {
+		"**/.classpath": true,
+		"**/.project": true,
+		"**/.settings": true,
+		"**/.factorypath": true
+	},
+	"editor.suggestSelection": "first",
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"java.configuration.runtimes": [
+		{
+			"name": "JavaSE-1.8",
+			"path": "C:\\Program Files\\Java\\jdk1.8.0_202"
+		}
+	],
+	"tabnine.experimentalAutoImports": true,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"emmet.includeLanguages": {
+		"javascript": "",
+		"typescript": "typescriptreact"
+	},
+	"emmet.triggerExpansionOnTab": true,
+	"emmet.showSuggestionsAsSnippets": true,
+	"terminal.integrated.fontSize": 16,
+	"latex-workshop.view.pdf.viewer": "tab",
+	"latex-workshop.latexindent.args": [
+		"-c",
+		"%DIR%/",
+		"%TMPFILE%",
+		"-l",
+		"-y=defaultIndent: '%INDENT%'"
+	],
+	"[latex]": {
+		"editor.defaultFormatter": "James-Yu.latex-workshop"
+	},
+	"files.eol": "\n",
+	"git.autofetch": true,
+	"[dart]": {
+		"editor.formatOnType": true,
+		"editor.rulers": [80],
+		"editor.selectionHighlight": false,
+		"editor.suggest.snippetsPreventQuickSuggestions": false,
+		"editor.suggestSelection": "first",
+		"editor.tabCompletion": "onlySnippets",
+		"editor.wordBasedSuggestions": "off",
+		"editor.defaultFormatter": "Dart-Code.dart-code"
+	},
+	"workbench.startupEditor": "none",
+	"gitlens.gitCommands.skipConfirmations": [
+		"fetch:command",
+		"stash-push:command",
+		"switch:command",
+		"push:command"
+	],
+	"git.ignoreMissingGitWarning": true,
+	"git.ignoreRebaseWarning": true,
+	"githubPullRequests.pullBranch": "never",
+	"terminal.integrated.env.windows": {},
+	"[cpp]": {
+		"editor.defaultFormatter": "ms-vscode.cpptools"
+	},
+	"[python]": {
+		"editor.defaultFormatter": "ms-python.black-formatter"
+	},
+
+	"editor.fontSize": 16,
+	"editor.inlineSuggest.enabled": true,
+	"[rust]": {
+		"editor.defaultFormatter": "rust-lang.rust-analyzer"
+	},
+	"explorer.confirmDragAndDrop": false,
+	"github.copilot.enable": {
+		"*": true,
+		"plaintext": true,
+		"markdown": false,
+		"scminput": false
+	},
+	"diffEditor.ignoreTrimWhitespace": false,
+	"typescript.tsdk": "node_modules/typescript/lib",
+	"git.commandsToLog": ["push", "commit"],
+	"reactSnippets.settings.importReactOnTop": false,
+	"gitProjectManager.baseProjectsFolders": [
+		"C:\\Users\\test\\Documents\\repos"
+	],
+	"editor.minimap.enabled": false,
+	"window.titleBarStyle": "custom",
+	"editor.formatOnSave": true,
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"editor.codeActionsOnSave": {
+		"source.organizeImports.biome": "explicit",
+		"source.fixAll.biome": "explicit"
+	},
+	"terminal.integrated.windowsEnableConpty": true,
+	"terminal.integrated.shellIntegration.enabled": false,
+	"prisma.showPrismaDataPlatformNotification": false,
+	"jestrunner.configPath": "/visualization/conf/jestUnit.config.json",
+	"jestrunner.runOptions": ["--coverage false"],
+	"cmake.showOptionsMovedNotification": false,
+	"jest.runMode": "on-demand",
+	"cmake.pinnedCommands": [
+		"workbench.action.tasks.configureTaskRunner",
+		"workbench.action.tasks.runTask"
+	],
+	"terminal.integrated.defaultProfile.windows": "PowerShell",
+	"terminal.integrated.profiles.windows": {
+		"PowerShell": {
+			"source": "PowerShell",
+			"icon": "terminal-powershell"
+		},
+		"Command Prompt": {
+			"path": [
+				"${env:windir}\\Sysnative\\cmd.exe",
+				"${env:windir}\\System32\\cmd.exe"
+			],
+			"args": [],
+			"icon": "terminal-cmd"
+		},
+		"Git Bash": {
+			"source": "Git Bash"
+		},
+		"Windows PowerShell": {
+			"path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+		}
+	},
+	"typescript.referencesCodeLens.enabled": true,
+	"typescript.referencesCodeLens.showOnAllFunctions": true,
+	"files.trimTrailingWhitespaceInRegexAndStrings": false,
+	"terminal.integrated.fontFamily": "'MesloLGS Nerd Font'",
+	"javascript.preferences.importModuleSpecifier": "project-relative",
+	"typescript.preferences.importModuleSpecifier": "non-relative",
+	"gitlens.graph.dimMergeCommits": true,
+	"gitlens.graph.minimap.additionalTypes": ["localBranches", "pullRequests"],
+	"javascript.experimental.updateImportsOnPaste": true,
+	"typescript.preferences.autoImportFileExcludePatterns": [
+		"@radix-ui/react-a*",
+		"@radix-ui/react-o*",
+		"@radix-ui/react-b*",
+		"@radix-ui/react-p*",
+		"@radix-ui/react-d*",
+		"@radix-ui/react-q*",
+		"@radix-ui/react-c*",
+		"@radix-ui/react-r*",
+		"@radix-ui/react-e*",
+		"@radix-ui/react-s*",
+		"@radix-ui/react-f*",
+		"@radix-ui/react-t*",
+		"@radix-ui/react-g*",
+		"@radix-ui/react-u*",
+		"@radix-ui/react-h*",
+		"@radix-ui/react-v*",
+		"@radix-ui/react-j*",
+		"@radix-ui/react-w*",
+		"@radix-ui/react-k*",
+		"@radix-ui/react-x*",
+		"@radix-ui/react-l*",
+		"@radix-ui/react-y*",
+		"@radix-ui/react-m*",
+		"@radix-ui/react-z*",
+		"@radix-ui/react-n*"
+	],
+	"chat.editing.alwaysSaveWithGeneratedChanges": true,
+	"cursor.cpp.disabledLanguages": ["markdown", "scminput"],
+	"redhat.telemetry.enabled": false,
+	"claudeCode.preferredLocation": "panel"
+}

@@ -80,6 +80,9 @@ link_config "hypr" "$REPO_DIR/configs/hypr/hyprland.conf" "$CONFIG_DIR/hypr/hypr
 # Link Waybar config only (modules, overlay; style comes from theme via Omarchy)
 link_config "waybar" "$REPO_DIR/configs/waybar/config.jsonc" "$CONFIG_DIR/waybar/config.jsonc"
 
+# Link Cursor IDE settings
+link_config "cursor" "$REPO_DIR/configs/cursor" "$CONFIG_DIR/Cursor"
+
 # 5. Set Defaults
 echo "🌍 Setting Default Apps (Zen & Ghostty)..."
 
